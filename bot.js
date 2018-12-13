@@ -9,7 +9,7 @@ client.on("ready", async() => {
 console.log(`Back Online In ${client.guilds.size} Servers!`);
 console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nInvite Me To Your Server!`);
     setTimeout(() => {
-        client.user.setActivity(`${prefix}IOTE SERVER | V 1.1`, {type: "STREMING"});
+        client.user.setActivity(`$IOTE SERVER`, {type: "WATCHING"});
     }, 3000);
 });
 
